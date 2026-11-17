@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url(./assets/fonts/JetBrainsMono-VariableFont_wght.ttf);
+}
+
+:root {
+ --white-: hsl(0, 100%, 100%);
+ --black-: hsl(0, 0%, 0%);
+ --grey-950-: hsl(255, 22%, 4%);
+ --grey-900-: hsl(248, 17%, 9%);
+ --grey-850-: hsl(248, 15%, 11%);
+ --grey-800-: hsl(248, 10%, 15%);
+ --grey-700-: hsl(248, 5%, 34%);
+ --grey-600-: hsl(251, 9%, 53%);
+ --grey-200-: hsl(252, 11%, 91%);
+
+ --green-200-: hsl(127, 100%, 82%);
+ --yellow-300-: hsl(42, 91%, 68%);
+ --orange-400-: hsl(13, 95%, 66%);
+ --red-: hsl(0, 91%, 63%);
+ --gradient-: hsl(248, 17%, 9%)
+}
+
+@media screen and (min-width: 375px) {
+
+    body {
+     display: flex;
+     flex-direction: column;
+     min-height: 100vh;
+     justify-content: center;
+     align-items: center;
+     background-color: var(--grey-950-);
+     font-family: "JetBrains Mono";
+    }
+
+    main {
+     display: flex;
+     flex-direction: column;
+     gap: 16px;
+     background-color: var(--grey-950-);
+     width: 343px;
+    }
+
+    header {
+     text-align: center;
+     font-size: 16px;
+     line-height: 20px;
+     color: var(--grey-600-);
+    }
+
+    .body {
+     height: 64px;
+     padding: 16px;
+     background-color: var(--grey-800-);
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+    }
+
+    .password-code {
+     font-size: 24px;
+     line-height: 32px;
+     color: var(--grey-700-)
+    }
+
+    .body img {
+     width: 17.5px;
+     height: 20px;
+    }
+
+    .character-length {
+     display: flex;
+     flex-direction: column;
+     gap: 8px;
+     padding: 16px;
+     background-color: var(--grey-800-);
+    }
+
+    .zero-container {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+    }
+
+    .zero-container h1 {
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 20px;
+     color: var(--white-)
+    }
+
+    .zero {
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 32px;
+     color: var(--green-200-);
+    }
+
+
+    .slider-bar {
+     width: 311px;
+    }
+
+    .slider-bar input[type="range"] {
+     width: 100%;
+     -webkit-appearance: none;
+     background-color: var(--grey-850-);
+     cursor: pointer;
+     
+    }
+
+    .slider-bar input[type="range"]::-moz-range-track {
+     height: 8px;
+    }
+    .slider-bar input[type="range"]::-moz-range-thumb {
+     width: 28px;
+     height: 28px;
+     border-radius: 50%;
+    }
+    
+
+}
