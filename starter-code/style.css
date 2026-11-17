@@ -119,6 +119,11 @@
      height: 28px;
      border-radius: 50%;
     }
+
+    .password-character {
+     list-style: none;
+     padding: 0px;
+    }
     
 
 }
