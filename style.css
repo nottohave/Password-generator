@@ -1,6 +1,6 @@
 @font-face {
     font-family: "JetBrains Mono";
-    src: url(./assets/fonts/JetBrainsMono-VariableFont_wght.ttf);
+    src: url(./starter-code/assets/fonts/JetBrainsMono-VariableFont_wght.ttf);
 }
 
 :root {
@@ -123,7 +123,65 @@
     .password-character {
      list-style: none;
      padding: 0px;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 20px;
+     color: var(--grey-200-);
+
     }
+
+    .password-character input[type="checkbox"]{
+     width: 20px;
+     height: 20px;
+     -webkit-appearance: none;
+     cursor: pointer;
+
+    }
+
+    #uppercase-letter, #lowercase-letter,
+    #numbers, #symbols {
+     border: 2px solid var(--grey-200-);
+
+    }
+
+    .password-character input[type="checkbox"]:checked{ 
+     -webkit-appearance: none;
+     background-color: var(--green-200-);
+     border-color: var(--white-);
+    }
+
+    /* to create a check mark */
+
+    /* #uppercase-letter::before {
+     content: "";
+     width: 5px;
+     height: 10px;
+     border: solid white;
+     border-width: 0 2.5px 2.5px 0;
+     transform: rotate(45deg) scale(0);
+     margin-bottom: 2px;
+     transition: transform 0.15s ease-in-out;
+    }
+
+    #uppercase-letter:checked:before {
+     transform: rotate(45deg) scale(1);
+    } */
+
+    .strength {
+     height: 56px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+    }
+
+    .strength-label{
+     font-size: 16px;
+     font-weight: 700;
+     line-height: 20px;
+     color: var(--grey-600-);
+
+    }
+
     
 
 }

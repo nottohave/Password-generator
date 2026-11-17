@@ -1,0 +1,8 @@
+const words = ["apple", "banana", "cherry", "dragonfruit", "elderberry"];
+
+function getRandomWord(wordList) {
+  const randomIndex = Math.floor(Math.random() * wordList.length);
+  return wordList[randomIndex];
+}
+
+console.log(getRandomWord(words)); // Example output: "cherry"
