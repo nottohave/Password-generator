@@ -192,10 +192,17 @@
      gap:10px;
     }
 
-    .meter{
+    .meter-1, 
+    .meter-2,
+    .meter-3,
+    .meter-4{
      width: 10px;
      height: 28px;
      border: 2px solid var(--grey-200-);
+    }
+
+    .medium {
+     display: none;
     }
 
     .generate-section {
@@ -223,6 +230,18 @@
      height: 12px;
      width: 11px;
     }
-    .
+    
+
+}
+
+@media screen and (min-width: 768px) {
+    main {
+     width: 540px;
+     height: 696px;
+    }
+
+    .slider-bar {
+     width: 476px;
+    }
 
 }
