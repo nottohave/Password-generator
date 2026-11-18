@@ -162,7 +162,7 @@ function generaterandomletters(length) {
 
   // make the generate button when first list is checked
   // make the generate button when second list is checked
-
+  // make the generate button when third list is checked
 
 
   })
