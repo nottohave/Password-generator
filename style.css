@@ -69,6 +69,10 @@
      height: 20px;
     }
 
+    .icon-copy:hover {
+     cursor: pointer;
+    }
+
     .character-length {
      display: flex;
      flex-direction: column;
