@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/nottohave/Password-generator)
-- Live Site URL: [Add live site URL here](https://nottohave.github.io/Password-generator/)
+- Solution URL: [Solution Page](https://github.com/nottohave/Password-generator)
+- Live Site URL: [Live Site](https://nottohave.github.io/Password-generator/)
 
 ## My process
 
